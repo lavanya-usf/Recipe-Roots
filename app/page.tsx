@@ -1,12 +1,13 @@
-import Navbar from "./ui/navbar";
-import TopPicks from './components/top-recipes/page';
-import SearchBar from "./ui/searchbar";
+import Navbar from "../components/ui/navbar";
+import TopPicks from '../components/top-recipes/page';
+import SearchBar from "../components/ui/searchbar";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col p-2">
       <Navbar />
-      <div className="flex justify-between">
+      
+      <div className="flex justify-between py-2">
         <SearchBar />
       </div>
       <TopPicks />

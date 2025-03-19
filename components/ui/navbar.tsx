@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Page() {
     return (
 
-        <div className="flex h-30 shrink-0 rounded-lg bg-gradient-to-r from-cyan-600 p-4 md:h-30">
+        <div className="flex h-25 shrink-0 rounded-lg bg-gradient-to-r from-blue-700 to-blue-500 p-4 items-center">
             <Image
                 className="ml-4"
                 src="/tray.png"
