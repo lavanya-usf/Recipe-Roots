@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Card, CardFooter } from "@/components/ui/card"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 
-const recipes = [ { name: "Grilled Chicken Salad", url: "/grilled-chicken-salad.jpg", }, { name: "Avocado Toast", url: "/avacado-toast.jpg", }, { name: "Chicken Wrap", url: "/chicken-wrap.jpg", }, { name: "Lentil Soup", url: "/lentil-soup.jpg", }, { name: "Noodles", url: "/noodles.jpg", }, { name: "Nut Snack", url: "/nut-snack.jpg", }, { name: "Pineapple Cheese", url: "/pineapple-cottage-cheese.jpg", }, { name: "Quinoa", url: "/quinoa.jpg", }, { name: "Shrimp Taco", url: "/shrimp-taco.jpg", }, { name: "Stuffed Bell Peppers", url: "/stuffed-bell-peppers.jpg", }, ];
+const recipes = [ { name: "Grilled Chicken Salad", url: "/grilled-chicken-salad.jpg", }, { name: "Avocado Toast", url: "/avacado-toast.jpg", }, { name: "Chicken Wrap", url: "/chicken-wrap.jpg", }, { name: "Lentil Soup", url: "/lentil-soup.jpg", }, { name: "Noodles", url: "/noodles.jpg", }, { name: "Nut Snack", url: "/nut-snack.jpg", }, { name: "Pineapple Cheese", url: "/pineapple-cottage-cheese.jpg", }, { name: "Quinoa", url: "/quinoa.jpg", }, { name: "Shrimp Taco", url: "/shrimp-taco.jpg", }, { name: "Stuffed Bell Peppers", url: "/tuffed-bell-peppers.jpg", }, ];
 
 export default function RecipeCarousel() {
     return (
