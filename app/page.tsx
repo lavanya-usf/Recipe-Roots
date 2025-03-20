@@ -1,6 +1,7 @@
 import Navbar from "../components/ui/navbar";
 import TopPicks from '../components/top-recipes/page';
 import SearchBar from "../components/ui/searchbar";
+import Footer from "../components/ui/footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <SearchBar />
       </div>
       <TopPicks />
+      <Footer/>
     </main>
   );
 }
