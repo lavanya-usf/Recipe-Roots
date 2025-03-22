@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function HeroBanner() {
+export default function Banner() {
   return (
     <div className="relative w-full h-[35vh] mt-4 rounded-xl overflow-hidden shadow-lg mb-6">
       <Image
