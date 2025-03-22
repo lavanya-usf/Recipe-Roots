@@ -1,8 +1,9 @@
-import Navbar from "../components/ui/navbar";
+import Navbar from "../components/navbar/navbar";
 import TopPicks from '../components/top-recipes/page';
 import SearchBar from "../components/ui/searchbar";
-import Footer from "../components/ui/footer";
-import HeroBanner from "@/components/ui/heroBanner";
+import Footer from "../components/footer/footer";
+import HeroBanner from "../components/banner/heroBanner";
+
 
 export default function Home() {
   return (

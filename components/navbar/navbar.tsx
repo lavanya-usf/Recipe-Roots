@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { House, Star, Heart, CircleUserRound, Menu, X } from "lucide-react";
-import { NavbarElement } from "./navbarelement";
+import { NavbarElement } from "../ui/navbarelement";
 import {useState} from 'react'
 
 export default function Page() {
