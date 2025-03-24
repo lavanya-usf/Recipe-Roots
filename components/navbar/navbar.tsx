@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import Image from "next/image";
 import { House, Star, Heart, CircleUserRound, Menu, X } from "lucide-react";
 import { NavbarElement } from "../ui/navbarelement";
@@ -18,10 +19,10 @@ export default function Page() {
         <NavbarElement Icon={House} title="Home" />
         <NavbarElement Icon={Star} title="Top Picks" />
         <NavbarElement Icon={Heart} title="Favorites" />
+        <Link href = "/login">
         <NavbarElement Icon={CircleUserRound} title="Login" />
+        </Link>
       </div>
-
-
 
       <button 
         className="md:hidden text-white hover:text-gray-700 transition duration-300" 
